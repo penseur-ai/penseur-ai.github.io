@@ -1,0 +1,242 @@
+@import url(http://db.onlinewebfonts.com/c/116d187134420de5733c7c45bbc80c46?family=LuloCleanW01-One);
+@font-face {font-family: "LuloCleanW01-One";
+	src: url("http://db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.eot");
+	src: url("http://db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.eot?#iefix") format("embedded-opentype"),
+	url("http://db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.woff2") format("woff2"),
+	url("http://db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.woff") format("woff"),
+	url("http://db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.ttf") format("truetype"),
+	url("http://db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.svg#LuloCleanW01-One") format("svg");
+}
+
+* {
+   box-sizing: border-box;
+   margin:0;
+   padding:0;
+}
+html, body {
+   height:100%;
+}
+body {
+}
+
+.main {
+   background-color: #235588;
+   height: 100%;
+   
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.name {
+   font-family: "LuloCleanW01-One", "Helvetica Neue", sans-serif;
+   font-size: 48px;
+   color: white;
+   text-align: center;
+   letter-spacing: 8px;
+   position:relative;
+   top:30%;
+}
+
+.msg {
+   font-family: "Helvetica Neue", sans-serif;
+   text-transform: uppercase;
+   color: white;
+   text-align: center;
+   letter-spacing: 1px;
+   position: relative;
+   top: 33%;
+}
+
+form * {
+   width: 100%;
+   text-align: left;
+}
+
+input {
+   height: 40px;
+   padding-left: 10px;
+   border: 1px solid black;
+   margin-top: 4px;
+   margin-bottom: 10px;
+}
+
+.sub-field {
+   display: inline;
+   width:400px;
+}
+
+.subscr-form {
+   padding-top: 25px;
+   text-align: center;
+   letter-spacing: 1px;
+   position: relative;
+   top: 40%;
+}
+
+.subscr-form {
+   width: 500px;
+   font-family: "Helvetica Neue", sans-serif;
+   font-weight: 200;
+   text-transform: uppercase;
+   margin: 0 auto;
+}
+
+.subscr-form input {
+   width: 400px;
+   margin-top: 0px;
+   text-transform: uppercase;
+}
+
+.subscr-form button {
+   background-color: rgba(255,255,255,1);
+   color: black;
+   font-size: 18px;
+}
+
+.subscr-form button:hover {
+   background: none;
+   color: white;
+   border: 1px solid white;
+   cursor: pointer;
+}
+
+
+#subscriber {
+   background: rgba(0,0,0,0);
+   border: 1px solid white;
+}
+
+#about {
+   height: 700px;
+   width: 100%;
+   background-color: #fefefe;
+   padding: 150px 50px 50px 50px;
+   font-family: "Helvetica Neue", sans-serif;
+   font-weight:200;
+}
+
+#about h4 {
+   font-weight:200;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 24px;
+   text-align:center;
+   margin-bottom: 25px;
+}
+
+.container {
+   width: 100%;
+   padding-left:200px;
+   padding-top: 50px;
+}
+
+.info {
+   display: inline;
+   /*border: 1px solid red;*/
+   width: 35%;
+   height: 250px;
+   float: left;
+   margin-right: 100px;
+}
+
+.info p {
+   text-align: center;
+   font-family: "Times", serif;
+   font-style: italic;
+}
+
+#about h5 {
+   font-weight:400;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   text-align:center;
+   margin-bottom:25px;
+}
+
+#contact {
+   height: 700px;
+   width: 600px;
+   margin: auto;
+   background-color: #fefefe;
+   padding: 75px 50px 50px 50px;
+   font-family: Sans-serif;
+}
+
+#contact h4 {
+   font-weight:200;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 20px;
+   text-align:center;
+   margin-bottom: 25px;
+}
+
+#contact p {
+   text-align: center;
+   font-family: "Helvetica Neue", sans-serif;
+   font-weight: 200;
+}
+
+.contact-form {
+   display: block;
+   padding-top: 25px;
+   text-align: center;
+   letter-spacing: 1px;
+}
+
+.form-field {
+   width: 100%;
+}
+
+.contact-form {
+   width: 400px;
+   font-family: "Helvetica Neue", sans-serif;
+   font-weight: 200;
+   text-transform: uppercase;
+   margin: 0 auto;
+}
+
+.contact-form textarea {
+   height: 120px;
+   padding-top: 10px;
+   padding-left: 10px;
+   border: 1px solid black;
+   margin-top: 4px;
+   margin-bottom: 10px;
+   resize: none;
+}
+
+input[type=text]:focus {
+   outline: none;
+}
+
+textarea:focus {
+   outline: none;
+}
+
+button {
+   font-family: "Helvetica Neue", sans-serif;
+   font-weight: 200;
+   text-transform: uppercase;
+   height: 40px;
+   width: 60px;
+   text-align: center;
+   letter-spacing: 1px;
+   border: 1px solid white;
+}
+
+.contact-form button {
+   background-color: black;
+   color: white;
+}
+
+.contact-form button:hover {
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+   cursor: pointer;
+}
+   
+   
